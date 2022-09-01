@@ -1,0 +1,100 @@
+@charset "UTF-8";
+*{background-image: url("https://lh5.googleusercontent.com/proxy/zUEnkqkSQ1UpdL3RWW4VcWYxzUx8NwkXPnJBmH9O2DlUPwNQS6d7OMcZIqdqIdZ4zZtLQYKJ7SjDsEAEPrrvGhfWtL7-j5F6vjH9cg=s0-d");
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: left center}
+body{
+text-align:center;
+}
+#wrap1{
+width:800px;
+margin:0 auto;
+text-align:left;
+border:groove 10px #f6c;
+color: #000;
+background-color: #f9c;
+}
+h2 {
+font-size: 160%;
+font-family: cursive
+}
+#head1 {
+padding:10px;    
+border-bottom:double 10px #c3f;
+background-color: #c9f;
+font-style:italic;
+font-family:"MS 明朝",serif;
+}
+#navi1 {
+margin:25px;
+margin-right:620px;
+padding:10px;    
+border:dotted 5px #f39;
+background-color: #3f3
+}
+.post1 {
+padding:10px;
+}
+
+#foot1 {
+border-top:solid 1px #333;
+text-align:center;
+padding:10px;
+}
+.source1{
+color:#ff3333;
+border-bottom:solid 1px #333;
+}
+
+@media print {
+  @page {
+   size: A4 portrait;
+   margin: 0mm;
+   page-break-after: always;
+   }
+*{-webkit-print-color-adjust: exact;
+  background-color: pink;
+  background-size: A4;
+  }
+  body{
+text-align:center;
+}
+#wrap1{
+width:800px;
+margin:0 auto;
+text-align:left;
+border:groove 10px #f6c;
+color: #000;
+background-color: #f9c;
+}
+h2 {
+font-size: 160%;
+font-family: cursive
+}
+#head1 {
+padding:10px;    
+border-bottom:double 10px #c3f;
+background-color: #c9f;
+font-style:italic;
+font-family:"MS 明朝",serif;
+}
+#navi1 {
+margin:25px;
+margin-right:620px;
+padding:10px;    
+border:dotted 5px #f39;
+background-color: #3f3
+}
+.post1 {
+padding:10px;
+}
+
+#foot1 {
+border-top:solid 1px #333;
+text-align:center;
+padding:10px;
+}
+.source1{
+color:#ff3333;
+border-bottom:solid 1px #333;
+}
